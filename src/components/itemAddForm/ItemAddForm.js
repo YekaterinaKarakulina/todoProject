@@ -19,7 +19,7 @@ export default class ItemAddForm extends React.Component {
     this.props.onItemAdded(this.state.label);  
     this.setState({
       label: ''
-    })  
+    }) ; 
   };
 
   render() {
